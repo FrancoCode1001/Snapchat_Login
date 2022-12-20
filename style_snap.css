@@ -1,0 +1,95 @@
+body{
+    background-color: #f2f2f2;
+    font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+.formulario{
+    width: 9.4cm;
+    height: 11cm;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 4%);
+    text-align: center;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+.formulario img{
+    height: 40px;
+    margin-top: 25px;
+}
+.formulario h2{
+    margin: 5px auto;
+    width: 5cm;
+}
+span{
+    float: left;
+    color: #656b73;
+    margin: 10px 25px;
+    font-size: 12px;
+    font-weight: 600;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-indent: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f7f7f7;
+    outline: none;
+    width: 8cm;
+    height: 1.1cm;
+}
+.formulario a{
+    margin-left: 182px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #656b73;
+    font-weight: 400;
+}
+button{
+    margin: 20px 0;
+    background-color: #fffc00;
+    font-weight: bold;
+    width: 3.5cm;
+    height: 1cm;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+}
+.register p{
+    text-align: center;
+    margin: -30px auto;
+}
+.register a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.foo1{
+    font-size: 14px;
+    display: flex;
+    background-color: #fff;
+    margin-top: 75px;
+}
+ol{
+    margin: 0 80px;
+    list-style: none;
+    cursor: pointer;
+    line-height: 25px;
+}
+.foo1 p{
+    font-weight: bold;
+}
+li:hover{
+    text-decoration: underline orange 2px;
+    transition: .3s ease;
+}
+.formulario a:hover{
+    text-decoration: underline orange 2px;
+}
+input:focus{
+    border-bottom: 2px solid orange;
+    transition: .3s;
+}
